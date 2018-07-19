@@ -5,11 +5,11 @@ import framework.wrapper.Wrapper;
 import javax.persistence.Embeddable;
 
 @Embeddable
-public class BdName extends Wrapper<String> {
-    public BdName(String value) {
+public class CustomerLastName extends Wrapper<String> {
+    public CustomerLastName(String value) {
         super(value);
     }
 
     // JPA Constructor
-    protected BdName() {}
+    protected CustomerLastName() {}
 }
