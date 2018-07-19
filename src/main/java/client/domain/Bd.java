@@ -7,6 +7,7 @@ import framework.domain.Entity;
 import javax.persistence.Column;
 import javax.persistence.Table;
 
+@javax.persistence.Entity
 @Table
 public class Bd extends Entity<Bd> {
     @Column
